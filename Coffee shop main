@@ -1,0 +1,22 @@
+// python code
+
+
+
+print("Hello welcome to coffee shop!!!!!!!!!!!!!!")
+
+name = input ("what is your name ? \n ")
+
+print("Hello " + name + " , thank you so much for coming in today.")
+
+menu = "Black coffee,Espresso, latte, Cappucino, Americano, Doppio, Cortado, Red eye, Lango, Macchiato, Ristretto, Flat White, Correttor, Glace, Vienna Coffee, Iced coffee, Freddo , Frappe, Mocha, Raf , Coffee breve,  Cafe au lait.  "
+
+print(name + ", what would you like from our menu today? \n Here is what we are serving today \n \n " + menu )
+
+
+order = input("which one do you whant ?  \n ")
+
+print("sound good " + name + ", we'll have that " + order + " ,It will be ready in a minute." )
+
+input()
+
+print("Your welcome " + name)
